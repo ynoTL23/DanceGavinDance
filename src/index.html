@@ -5,43 +5,292 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.scss" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <title>Dance Gavin Dance</title>
   </head>
   <body>
-    <header>
-      <h1>Dance Gavin Dance</h1>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Upcoming Shows</a></li>
-          <li><a href="">About</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="home" id="top">
+      <header>
+        <h1>Dance Gavin Dance</h1>
+        <nav>
+          <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#gigs">Upcoming Shows</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <div class="jumbotron">
-      <div class="jumbo-title">Latest Release</div>
-      <div class="jumbo-content">
-        <div class="jumbo-art">
+      <div class="jumbotron">
+        <div class="jumbo-title">Latest Release</div>
+        <div class="jumbo-content">
           <img
             src="https://images-na.ssl-images-amazon.com/images/I/81cMugeSoDL._SL1200_.jpg"
-            alt="Dance Gavin Dance Afterburner Album Cover Art"
+            alt="Dance Gavin Dance - Afterburner Album Cover Art"
           />
-        </div>
-        <div class="jumbo-info">
-          <div class="album-name">Afterburner</div>
-          <span>Available Now</span>
-          <div class="release-outlets">
-            <div>Spotify</div>
-            <div>Apple Music</div>
-            <div>YouTube</div>
-            <div>Tidal</div>
+          <div class="jumbo-info">
+            <div class="album-name">Afterburner</div>
+            <span>Available Now</span>
+            <div class="release-outlets">
+              <a
+                href="http://open.spotify.com/album/7MfryRchXoNRwG5YbbDL1S"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span
+                  class="iconify spotify-logo"
+                  data-icon="simple-icons:spotify"
+                  data-inline="false"
+                ></span>
+              </a>
+              <a
+                href="https://music.apple.com/us/album/1497381370"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span
+                  class="iconify apple-music-logo"
+                  data-icon="simple-icons:itunes"
+                  data-inline="false"
+                ></span>
+              </a>
+              <a
+                href="https://youtube.com/playlist?list=OLAK5uy_kcibQURJJ_hjUKhs4Bm8krFfQiP3AthuQ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span
+                  class="iconify youtube-logo"
+                  data-icon="simple-icons:youtube"
+                  data-inline="false"
+                ></span>
+              </a>
+              <a
+                href="http://listen.tidalhifi.com/album/132590341"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span
+                  class="iconify tidal-logo"
+                  data-icon="simple-icons:tidal"
+                  data-inline="false"
+                ></span>
+              </a>
+            </div>
+            <a
+              href="https://riserecords.lnk.to/afterburner"
+              target="_blank"
+              rel="noopener noreferrer"
+              >and more...</a
+            >
           </div>
-          <a href="https://riserecords.lnk.to/afterburner" target="_blank" rel="noopener noreferrer"
-            >and more...</a
-          >
         </div>
       </div>
     </div>
+
+    <div class="gigs-container" id="gigs">
+      <div class="gig-title">Upcoming Shows</div>
+      <div class="gigs">
+        <div class="gig">
+          <div class="gig-details">
+            <h3>Sept. 7</h3>
+            <p>Tue. @ 7:00pm</p>
+          </div>
+          <div class="gig-location">
+            <h3>McMenamins Crystal Ballroom</h3>
+            <p>Portland, OR, United States</p>
+          </div>
+          <button class="gig-rsvp">RSVP</button>
+        </div>
+        <div class="gig">
+          <div class="gig-details">
+            <h3>Sept. 8</h3>
+            <p>Wed. @ 7:00pm</p>
+          </div>
+          <div class="gig-location">
+            <h3>Showbox SoDo</h3>
+            <p>Seattle, WA, United States</p>
+          </div>
+          <button class="gig-rsvp">RSVP</button>
+        </div>
+        <div class="gig">
+          <div class="gig-details">
+            <h3>Sept. 10</h3>
+            <p>Fri. @ 6:00pm</p>
+          </div>
+          <div class="gig-location">
+            <h3>The Warfield</h3>
+            <p>San Francisco, CA, United States</p>
+          </div>
+          <button class="gig-rsvp">RSVP</button>
+        </div>
+        <div class="gig">
+          <div class="gig-details">
+            <h3>Sept. 11</h3>
+            <p>Sat. @ 7:00pm</p>
+          </div>
+          <div class="gig-location">
+            <h3>Hollywood Palladium</h3>
+            <p>Los Angeles, CA, United States</p>
+          </div>
+          <button class="gig-rsvp">RSVP</button>
+        </div>
+        <div class="gig">
+          <div class="gig-details">
+            <h3>Sept. 13</h3>
+            <p>Mon. @ 7:00pm</p>
+          </div>
+          <div class="gig-location">
+            <h3>The Complex</h3>
+            <p>Salt Lake City, UT, United States</p>
+          </div>
+          <button class="gig-rsvp">RSVP</button>
+        </div>
+        <div class="gig">
+          <div class="gig-details">
+            <h3>Sept. 15</h3>
+            <p>Wed. @ 7:00pm</p>
+          </div>
+          <div class="gig-location">
+            <h3>The Mission Ballroom</h3>
+            <p>Denver, CO, United States</p>
+          </div>
+          <button class="gig-rsvp">RSVP</button>
+        </div>
+        <div class="gig">
+          <div class="gig-details">
+            <h3>Sept. 16</h3>
+            <p>Thu. @ 7:00pm</p>
+          </div>
+          <div class="gig-location">
+            <h3>Arvest Bank Theatre At the Midland</h3>
+            <p>Kansas City, MO, United States</p>
+          </div>
+          <button class="gig-rsvp">RSVP</button>
+        </div>
+        <div class="gig">
+          <div class="gig-details">
+            <h3>Sept. 17</h3>
+            <p>Fri. @ 7:00pm</p>
+          </div>
+          <div class="gig-location">
+            <h3>Fillmore Minneapolis</h3>
+            <p>Minneapolis, MN, United States</p>
+          </div>
+          <button class="gig-rsvp">RSVP</button>
+        </div>
+        <div class="gig">
+          <div class="gig-details">
+            <h3>Sept. 18</h3>
+            <p>Sat. @ 7:00pm</p>
+          </div>
+          <div class="gig-location">
+            <h3>Egyptian Room at Old National Centre</h3>
+            <p>Indianapolis, IN, United States</p>
+          </div>
+          <button class="gig-rsvp">RSVP</button>
+        </div>
+        <div class="gig">
+          <div class="gig-details">
+            <h3>Sept. 19</h3>
+            <p>Sun. @ 7:00pm</p>
+          </div>
+          <div class="gig-location">
+            <h3>The Pageant</h3>
+            <p>St Louis, MO, United States</p>
+          </div>
+          <button class="gig-rsvp">RSVP</button>
+        </div>
+        <div class="gig">
+          <div class="gig-details">
+            <h3>Sept. 21</h3>
+            <p>Tue. @ 7:00pm</p>
+          </div>
+          <div class="gig-location">
+            <h3>Aragon Ballroom</h3>
+            <p>Chicago, IL, United States</p>
+          </div>
+          <button class="gig-rsvp">RSVP</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="about" id="about">
+      <h3>About</h3>
+      <div class="band-info">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe est dolore ullam
+          perferendis eveniet? Cupiditate exercitationem ullam animi magni reprehenderit quidem
+          eaque. Soluta, aliquid minima? Quia voluptatibus numquam adipisci. Provident.
+          <br /><br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eum amet cumque, quod sequi
+          est consectetur aliquid tempora accusamus praesentium. Voluptates dolore, eius labore id
+          incidunt quisquam maiores neque similique!
+        </p>
+
+        <div class="social-media">
+          <h3>Follow Us</h3>
+          <div class="media-icons">
+            <a href="https://twitter.com/DGDtheband" target="_blank" rel="noopener noreferrer">
+              <span
+                class="iconify twitter-logo"
+                data-icon="simple-icons:twitter"
+                data-inline="false"
+              ></span>
+            </a>
+            <a
+              href="https://www.facebook.com/DanceGavinDance/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span
+                class="iconify facebook-logo"
+                data-icon="simple-icons:facebook"
+                data-inline="false"
+              ></span>
+            </a>
+            <a
+              href="https://www.instagram.com/dancegavindance/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span
+                class="iconify instagram-logo"
+                data-icon="simple-icons:instagram"
+                data-inline="false"
+              ></span>
+            </a>
+            <a
+              href="https://open.spotify.com/artist/6guC9FqvlVboSKTI77NG2k"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span
+                class="iconify spotify-logo"
+                data-icon="simple-icons:spotify"
+                data-inline="false"
+              ></span>
+            </a>
+            <a
+              href="https://music.apple.com/us/artist/dance-gavin-dance/204782507"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span
+                class="iconify applemusic-logo"
+                data-icon="simple-icons:applemusic"
+                data-inline="false"
+              ></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- <img
+        src="https://s1.ticketm.net/dam/a/1b6/bf037bc5-71c2-435b-a8cf-ae3b07cb31b6_1201711_TABLET_LANDSCAPE_LARGE_16_9.jpg"
+        alt="Dance Gavin Dance"
+      /> -->
+    </div>
+    <img src="./band-img.png" alt="" />
   </body>
 </html>

@@ -1,0 +1,43 @@
+.about {
+  padding: 5% 10%;
+
+  h3 {
+    font-size: 4.2rem;
+  }
+
+  .band-info {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      font-size: 2rem;
+      line-height: 1.5;
+    }
+
+    .social-media {
+      margin-top: 5rem;
+
+      .media-icons {
+        margin-top: 1rem;
+        width: max-content;
+        display: flex;
+        gap: 2rem;
+
+        a {
+          .iconify {
+            font-size: 5rem;
+          }
+          color: $foreground;
+        }
+      }
+
+      h3 {
+        font-size: 3.5rem;
+      }
+    }
+  }
+  img {
+    width: 100vw;
+  }
+}

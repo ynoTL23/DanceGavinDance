@@ -1,8 +1,8 @@
-@import './variables';
-
 header {
-  width: fit-content;
-  margin: 30px auto 0 auto;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   h1 {
     font-size: 4.8rem;
@@ -10,6 +10,7 @@ header {
 
   nav {
     margin-top: 20px;
+    width: 50%;
 
     ul {
       margin: auto;
@@ -23,7 +24,7 @@ header {
         text-decoration: none;
 
         &:hover {
-          font-weight: bold;
+          text-decoration: underline;
         }
       }
     }

@@ -1,11 +1,11 @@
 .jumbotron {
   height: 100%;
-  margin-top: 5rem;
+  padding: 5rem 10%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 
   .jumbo-title {
+    padding: 2rem 0;
     font-size: 4.2rem;
     font-weight: bold;
   }
@@ -14,22 +14,14 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: auto;
-    align-content: center;
+    align-items: center;
 
-    .jumbo-art {
-      width: fit-content;
-      height: fit-content;
-      margin: auto 0;
-
-      img {
-        width: 500px;
-        height: 500px;
-      }
+    img {
+      width: 30%;
     }
 
     .jumbo-info {
-      margin-left: 5rem;
+      margin-left: 10rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -37,6 +29,7 @@
       .album-name {
         font-size: 5rem;
         font-weight: bold;
+        letter-spacing: 2px;
       }
 
       span {
@@ -54,14 +47,37 @@
       }
 
       .release-outlets {
+        width: 400px;
+        padding: 3rem 0;
         display: flex;
+        justify-content: space-between;
 
-        div {
-          width: 100px;
-          height: 100px;
-          background-color: red;
-          border: 1px white solid;
-          text-align: center;
+        .iconify {
+          font-size: 7rem;
+
+          &.spotify-logo {
+            color: #24cf5f;
+          }
+
+          &.apple-music-logo {
+            color: #fff;
+          }
+
+          &.youtube-logo {
+            color: #ff0000;
+          }
+
+          &.tidal-logo {
+            color: #000;
+          }
+        }
+      }
+
+      a {
+        text-align: center;
+
+        &:hover {
+          text-decoration: underline;
         }
       }
     }
