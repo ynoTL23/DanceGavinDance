@@ -1,0 +1,61 @@
+.jumbotron {
+  border: 1px black solid;
+
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+
+  .jumbo-title {
+    font-size: 4.2rem;
+    font-weight: bold;
+  }
+
+  .jumbo-content {
+    border: 1px white solid;
+
+    display: flex;
+    place-items: center;
+
+    .jumbo-art {
+      img {
+        width: 500px;
+        height: 500px;
+      }
+    }
+
+    .jumbo-info {
+      margin-left: 5rem;
+
+      .album-name {
+        font-size: 5rem;
+        font-weight: bold;
+      }
+
+      span {
+        font-size: 2.4rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: $foreground;
+        font-size: 2.4rem;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .release-outlets {
+        display: flex;
+
+        div {
+          width: 100px;
+          height: 100px;
+          background-color: red;
+          border: 1px white solid;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
