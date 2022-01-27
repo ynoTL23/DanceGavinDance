@@ -52,8 +52,11 @@
         font-size: 2rem;
         border: 2px $foreground solid;
         cursor: pointer;
+        transition: all 0.4s cubic-bezier(0, 0, 0.2, 1) 0s;
 
-        &:hover {
+        &:hover,
+        &:active,
+        &:focus {
           background-color: $foreground;
           color: black;
         }
