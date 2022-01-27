@@ -6,6 +6,7 @@
   justify-content: center;
 
   .gig-title {
+    font-family: 'Quattrocento', serif;
     font-size: 4.2rem;
     font-weight: bold;
   }
@@ -24,13 +25,19 @@
       justify-content: space-between;
       align-items: center;
 
+      h3 {
+        font-family: 'Quattrocento', serif;
+      }
+
       h3,
       p {
+        max-width: fit-content;
         font-size: 2rem;
         letter-spacing: 2px;
       }
 
       .gig-details {
+        width: 6em;
         margin-right: 10rem;
         display: flex;
         flex-direction: column;
