@@ -1,9 +1,9 @@
 .jumbotron {
-  border: 1px black solid;
-
+  height: 100%;
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   .jumbo-title {
     font-size: 4.2rem;
@@ -11,12 +11,17 @@
   }
 
   .jumbo-content {
-    border: 1px white solid;
-
+    height: 100%;
     display: flex;
-    place-items: center;
+    justify-content: center;
+    align-items: auto;
+    align-content: center;
 
     .jumbo-art {
+      width: fit-content;
+      height: fit-content;
+      margin: auto 0;
+
       img {
         width: 500px;
         height: 500px;
@@ -25,6 +30,9 @@
 
     .jumbo-info {
       margin-left: 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 
       .album-name {
         font-size: 5rem;

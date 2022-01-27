@@ -12,7 +12,10 @@
 }
 
 body {
+  height: 100vh;
   padding: 0 240px;
+  display: flex;
+  flex-direction: column;
   background-color: $background;
   color: $foreground;
 }
